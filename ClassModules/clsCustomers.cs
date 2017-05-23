@@ -158,7 +158,6 @@ namespace inventory_control
                                new SqlParameter("@LoginUserID",SqlDbType.Int),
                                new SqlParameter("@EntryDate",SqlDbType.DateTime),
                                new SqlParameter("@Mode",SqlDbType.NVarChar,10),
-			       new SqlParameter("@Mode1",SqlDbType.NVarChar,50),
             };
 
             param[0].Value = _CustomerID;
