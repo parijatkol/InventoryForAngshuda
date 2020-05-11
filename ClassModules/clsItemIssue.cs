@@ -51,6 +51,7 @@ namespace inventory_control
         private int _Qty = 0;
         private decimal _Amount = 0;
         private bool _refStatus = true;
+        private bool _status = true;
 
        //========================================================//
 
